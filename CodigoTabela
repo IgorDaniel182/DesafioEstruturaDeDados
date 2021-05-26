@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	cadeia nome[] = {"Igor", "Bia", "Djalma", "Sônia"}
+	cadeia cidade[] = {"Recife", "Piedade", "Recife", "Piedade"}
+	real numero[] = {91.122812,91.283899,91.128381,81.212591}
+
+	escreva("-------------- \n")
+	escreva("    TABELA     \n")
+	escreva("-------------- \n")
+
+	para (inteiro posicao = 0; posicao <= 3; posicao++)
+	{
+		escreva(nome[posicao], "\t\t" , cidade[posicao], "\t\t", numero[posicao] , "\n")
+	}
+	}
+}
